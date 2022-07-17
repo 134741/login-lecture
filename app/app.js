@@ -17,6 +17,7 @@ app.use("/", home);
 // app.js 모듈이 있는 디렉토리는 app 
 // 한 문장으로 정리 => app의 src의 public 폴더를 정적 경로로 추가해 줄 것이다.
 app.use(express.static(`${__dirname}/src/public`));
+app.use(express.static(`${__dirname}/src/public/css`));
 
 module.exports = app;
 

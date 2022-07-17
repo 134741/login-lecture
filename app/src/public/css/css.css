@@ -1,0 +1,17 @@
+
+.text-login {
+  text-align: center;
+  margin: auto;
+ }
+ .btn-login {
+  margin: 3px;
+  text-align: center;
+ }
+
+ .back-login {
+  background-color: beige;
+  width: 300px;
+  height: 400px;
+ }
+
+ 
